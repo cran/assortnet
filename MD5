@@ -1,0 +1,7 @@
+3641bd5f2c3040068cc2e29e58e432f2 *DESCRIPTION
+8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
+1ea4c787fb23fc56dd0e8c4f08a6f9a1 *R/assortment.continuous.R
+f7ae1d9f69ecc64f98d1572a41415a2e *R/assortment.discrete.R
+262ee853f22f7875e422765f8f7efbaf *man/assortment.continuous.Rd
+b1555489f9b52fbf588733fe3f11e241 *man/assortment.discrete.Rd
+b9327dea9038c64817f0a091698e4f08 *man/assortnet-package.Rd
