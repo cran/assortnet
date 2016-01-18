@@ -31,7 +31,7 @@ assortment.continuous <- function(graph, vertex_values, weighted=TRUE, SE=FALSE,
 		
 		for (g in 1:(length(E)-1)) {
 			graph2 <- graph
-			graph2[which(graph2>0)[N[E[g]:(E[g+1]-1)]]] <- 0
+			graph2[N[E[g]:(E[g+1]-1)]] <- 0
 	
 			i  <- which(graph2>0,arr.ind=TRUE)
 			ji <- which(graph2>0,arr.ind=TRUE)[,1]

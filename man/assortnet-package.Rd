@@ -13,8 +13,8 @@ Functions to calculate the assortment of vertices in social networks.  This can 
 \tabular{ll}{
 Package: \tab assortnet\cr
 Type: \tab Package\cr
-Version: \tab 0.1\cr
-Date: \tab 2013-05-22\cr
+Version: \tab 0.12\cr
+Date: \tab 2016-01-17\cr
 License: \tab GPL2\cr
 }
 }

@@ -38,7 +38,7 @@ assortment.discrete <- function(graph, types, weighted=TRUE, SE=FALSE, M=1) {
 		
 		for (g in 1:(length(E)-1)) {
 			graph2 <- graph
-			graph2[which(graph2>0)[N[E[g]:(E[g+1]-1)]]] <- 0
+			graph2[N[E[g]:(E[g+1]-1)]] <- 0
 	
 			out2 <- matrix(0,nrow=length(total_types),ncol=length(total_types))
 
