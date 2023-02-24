@@ -13,13 +13,13 @@ Functions to calculate the assortment of vertices in social networks.  This can 
 \tabular{ll}{
 Package: \tab assortnet\cr
 Type: \tab Package\cr
-Version: \tab 0.12\cr
-Date: \tab 2016-01-17\cr
+Version: \tab 0.20\cr
+Date: \tab 2023-02-24\cr
 License: \tab GPL2\cr
 }
 }
 \author{
-Maintainer: Damien Farine  <dfarine@orn.mpg.de>
+Maintainer: Damien Farine  <damien.farine@anu.edu.au>
 }
 \references{
 	Newman (2003) Mixing patterns in networks. Physical Review E (67)

@@ -8,7 +8,8 @@ Assortment on continuous vertex values
 Calculates the assortativity coefficient for weighted and unweighted graphs with numerical vertex values
 }
 \usage{
-assortment.continuous(graph, vertex_values, weighted = TRUE, SE = FALSE, M = 1)
+assortment.continuous(graph, vertex_values, weighted = TRUE, 
+			SE = FALSE, M = 1, na.rm = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -26,6 +27,9 @@ assortment.continuous(graph, vertex_values, weighted = TRUE, SE = FALSE, M = 1)
 }
   \item{M}{
 	Binning value for Jackknife, where M edges are removed rather than single edges.  This helps speed up the estimate for large networks with many edges.
+}
+  \item{na.rm}{
+	Remove all nodes which have NA as vertex_values from both the network and the vertex_values object. If this is False and NAs are present, an error message will be displayed.
 }
 }
 \value{

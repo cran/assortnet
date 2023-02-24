@@ -1,7 +1,7 @@
-d4f2a55d16c83e27c8b955f17918a8f2 *DESCRIPTION
+411b6a740d659b5e594ae6374c296f96 *DESCRIPTION
 8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
-75af7d2a2b74e4210c3d220ce7f60c64 *R/assortment.continuous.R
-5744bac1d324c708fae82505b386de99 *R/assortment.discrete.R
-262ee853f22f7875e422765f8f7efbaf *man/assortment.continuous.Rd
-b1555489f9b52fbf588733fe3f11e241 *man/assortment.discrete.Rd
-0332cb1498256f58f23f04b21083e320 *man/assortnet-package.Rd
+c076c019ba28ad5de3cf9fd459a1ec8d *R/assortment.continuous.R
+5c7db0bb90af36db241143a45b12c14b *R/assortment.discrete.R
+1d2f3b91ef39089d486e8a43962b7e08 *man/assortment.continuous.Rd
+4da39cab5c94496b035e1040a37b54a3 *man/assortment.discrete.Rd
+b41fcfe765ecc4a68be3ca799cfcbd47 *man/assortnet-package.Rd

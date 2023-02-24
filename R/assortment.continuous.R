@@ -1,7 +1,16 @@
 
-assortment.continuous <- function(graph, vertex_values, weighted=TRUE, SE=FALSE, M=1) {
+assortment.continuous <- function(graph, vertex_values, weighted=TRUE, SE=FALSE, M=1, na.rm=FALSE) {
 
 	graph <- as.matrix(graph)
+
+	if (any(is.na(vertex_values)) & !na.rm) {
+		stop("vertex_values contains NAs")
+	}
+	
+	if (any(is.na(vertex_values)) & na.rm) {
+		graph <- graph[which(!is.na(vertex_values)),which(!is.na(vertex_values))]
+		vertex_values <- vertex_values[which(!is.na(vertex_values))]
+	}
 	
 	if (!weighted) {
 		graph[graph > 0] <- 1

@@ -1,6 +1,15 @@
 
-assortment.discrete <- function(graph, types, weighted=TRUE, SE=FALSE, M=1) {
+assortment.discrete <- function(graph, types, weighted=TRUE, SE=FALSE, M=1, na.rm=FALSE) {
 	
+	if (any(is.na(types)) & !na.rm) {
+		stop("types contains NAs")
+	}
+	
+	if (any(is.na(types)) & na.rm) {
+		graph <- graph[which(!is.na(types)),which(!is.na(types))]
+		types <- types[which(!is.na(types))]
+	}
+
 	graph <- as.matrix(graph)
 	
 	if (!weighted) {
